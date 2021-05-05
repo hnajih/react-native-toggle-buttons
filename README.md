@@ -11,11 +11,16 @@ npm install react-native-toggle-buttons
 ## Usage
 
 ```js
-import ToggleButtons from "react-native-toggle-buttons";
+import ToggleButton from "react-native-toggle-buttons";
 
 // ...
 
-const result = await ToggleButtons.multiply(3, 7);
+<ToggleButton.Group row>
+    <ToggleButton title={'Button1'} value={1} />
+    <ToggleButton title={'Button2'} value={2} />
+    <ToggleButton title={'Button3'} value={3} />
+</ToggleButton.Group>
+
 ```
 
 ## Contributing
