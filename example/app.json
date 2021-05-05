@@ -1,0 +1,22 @@
+{
+  "name": "react-native-toggle-buttons-example",
+  "displayName": "ToggleButtons Example",
+  "expo": {
+    "name": "react-native-toggle-buttons-example",
+    "slug": "react-native-toggle-buttons-example",
+    "description": "Example app for react-native-toggle-buttons",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
